@@ -1,3 +1,67 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+header {
+    background: #111;
+    height: 62px;
+    padding: 0 5%;
+    width: 90%;
+    position: absolute;
+    z-index: 1000;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+footer {
+  background: #D8D8D8;
+  height: 80px;
+  padding: 0 5%;
+  width: 90%;
+  position: absolute;
+  z-index: 1000;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+header h4 {
+  color: white;
+}
+
+footer h4 {
+  color: black;
+  font-weight:200;
+  padding: 5% 0;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* line-height: 0; */
+  position: relative;
+}
+
+.icon-nav {
+    width: 27px;
+    height: 62px;
+    float: right;
+    background: url(images/icons/logo-mobile.png) -42px -63px no-repeat;
+    text-indent: -9999px;
+}
+
+ul {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.logo {
+    display: block;
+    text-indent: -9999px;
+    float: left;
+}
+
 img.animated-gif{
   min-width: 100%;
   min-height: 100%;
