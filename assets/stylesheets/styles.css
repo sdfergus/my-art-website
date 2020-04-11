@@ -1,22 +1,78 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
 
 header {
-    background: #111;
-    height: 62px;
-    padding: 0 5%;
-    width: 90%;
-    position: absolute;
-    z-index: 1000;
-    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  background: #111;
+  height: 62px;
+  padding: 0 5%;
+  width:100%;
+  position: absolute;
+  /* z-index: 1000; */
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+text {
+  position: absolute;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+/* .col-1 {width: 15%;} */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  padding: 5% 40%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 footer {
   background: #D8D8D8;
   height: 80px;
   padding: 0 5%;
-  width: 90%;
+  width: 100%;
   position: absolute;
   z-index: 1000;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -24,12 +80,21 @@ footer {
 
 header h4 {
   color: white;
+  font-weight: 200;
+  padding: 0 5%;
 }
 
 footer h4 {
   color: black;
   font-weight:200;
-  padding: 5% 0;
+  /* padding: 5% 0; */
+}
+
+div h4 {
+  text-align: center;
+  font-weight: 200;
+  padding: 3% 0;
+  font-stretch: expanded;
 }
 
 .row {
@@ -48,12 +113,12 @@ footer h4 {
     text-indent: -9999px;
 }
 
-ul {
+/* ul {
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
 
 
 .logo {
@@ -65,8 +130,8 @@ ul {
 img.animated-gif{
   min-width: 100%;
   min-height: 100%;
-  position:fixed;
-  top: 0;
+  padding:inherit;
+  /* position: fixed; */
 }
 
 .full-background-image-container {
