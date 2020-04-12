@@ -44,7 +44,7 @@ body {
     position: relative;
   }
   .topnav.responsive.icon{
-    position: absolute;;
+    position: absolute;
     right: 0;
     top: 0;
   }
@@ -60,8 +60,59 @@ div img.animated-gif{
   height: 680px;
 }
 
-div .textInfo{
-  /* font-stretch:ultra-expanded; */
+div .textInfo {
+  font-stretch: expanded;
   font-weight: 300;
   font-size: 18px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.line {
+  width: 230px;
+  height: 0;
+  border: 0.5px solid #C4C4C4;
+  margin: 3px;
+  display:inline-block;
+}
+
+.vids {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+}
+
+ul {
+  display: table-row;
+}
+
+li {
+  display: table-cell
+}
+
+iframe {
+  display: block;
+}
+
+.footer {
+  overflow: hidden;
+  background: #D8D8D8;
+  height: 80px;
+  padding: 0 5%;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+.footer a {
+    float:right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:normal;
 }
