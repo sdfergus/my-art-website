@@ -163,19 +163,19 @@ iframe {
   letter-spacing: 1px;
 }
 
-.intro__h1 {
+.text__h1 {
   font-size: 6em;
   line-height: 50px;
   padding-top: 7%;
 }
 
-.intro__h2 {
+.text__h2 {
   font-size: 32px;
   font-weight: 200;
   padding-right: 60%;
 }
 
-.intro__h3 {
+.text__h3 {
   font-weight: 200;
   padding-right: 55%;
   line-height: 40px;
@@ -189,11 +189,57 @@ iframe {
   padding-right: 120px;
 }
 
-.palette img{
+.pie-img {
+  max-width: 450px;
+  float: none;
+  display: block;
+}
+
+.desktop-img{
+  max-width: 50%;
+}
+
+.level-img{
+  max-width: 100%;
+}
+
+.palette img {
   width: auto;
   height: 130px;
   padding: 20px 15px;
   /* box-shadow: none; */
+}
+
+.list{
+  list-style-type: none;
+  padding: 6em;
+}
+
+.container__sec{
+    padding: 80px 0px 20px 0px;
+}
+
+.list__title {
+  padding-bottom: 0.5em;
+  padding-right: 0px;
+  /* padding-left: 15px; */
+  font-size: 35px;
+  color: black;
+}
+
+.list__elem{
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 200;
+  /* padding-left: 15px; */
+}
+
+.list--designer {
+  padding-left: 130px;
+}
+
+.list--coder{
+  /* padding-left: 35px; */
 }
 
 [class*="col-"]
