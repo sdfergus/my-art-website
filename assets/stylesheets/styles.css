@@ -166,6 +166,8 @@ iframe {
 
 .intro__h1 {
   font-size: 80px;
+  line-height: 50px;
+  padding-top: 7%;
 }
 
 .intro__h2 {
@@ -178,8 +180,9 @@ iframe {
 .intro__h3 {
   font-weight: lighter;
   padding-right: 60%;
-  padding-left: 2.8em;
+  padding-left: 2.9em;
   transform: scale(1.1, 1);
+  line-height: 30px
 }
 
 .avatar-image{
@@ -188,9 +191,9 @@ iframe {
   padding-right: 100px;
 }
 
-.intro img{
+.palette img{
   width: 200%;
-  height: 200%
+  height: 200%;
 }
 
 [class*="col-"]
