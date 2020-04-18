@@ -3,13 +3,13 @@ body {
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.topnav{
+.topnav {
   overflow: hidden;
   background-color: black;
   padding: 0 2%;
 }
 
-.topnav a {
+.topnav_link {
   float: right;
   display: block;
   color: #f2f2f2;
@@ -20,22 +20,26 @@ body {
   font-weight:normal;
 }
 
+.topnav__disableClick{
+  pointer-events: none;
+}
+
 /* hamburger menu icon */
 .topnav .icon {
   display: none;
 }
 
-.topnav a:hover {
+.topnav_link:hover {
   color: #555;
   /* font-size: 105% */
   /* transition-timing-function: ease-in-out; */
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:nth-child(-n+3)){
+  .topnav_link:not(:nth-child(-n+3)){
     display: none;
   }
-  .topnav a.icon {
+  .topnav_link.icon {
     float: right;
     display: block;
   }
@@ -43,12 +47,14 @@ body {
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive.icon{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0px;
+    top: 0px;
   }
-  .topnav.responsive a {
+
+  .topnav.responsive .topnav_link {
     float: none;
     display: block;
     text-align: left;
