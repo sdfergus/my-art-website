@@ -242,7 +242,7 @@ iframe {
 }
 
 .list--designer {
-  padding-left: 130px;
+  /* padding-left: 130px; */
 }
 
 .list--coder{
@@ -297,6 +297,9 @@ iframe {
 
 .process-img{
   float: left;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4); */
+  /* transition: all .3s ease-in-out; */
 }
 
 .list--process{
