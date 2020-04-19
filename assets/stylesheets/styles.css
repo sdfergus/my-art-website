@@ -147,7 +147,7 @@ iframe {
 .center-block {
   text-align: center;
   display: inline-block;
-  padding-left: 5%;
+  padding-left: 20%;
   font-weight: normal;
 }
 
@@ -202,6 +202,8 @@ iframe {
 .level-img{
   max-width: 100%;
 }
+
+
 
 .palette img {
   width: auto;
@@ -275,4 +277,32 @@ iframe {
   .col-md-10 {width: 83.333%}
   .col-md-11 {width: 91.667%}
   .col-md-12 {width: 100%}
+}
+
+/* ----------------------------- Process Page CSS ----------------------------- */
+.process-headline-img{
+  /* background-image: url("assets/images/process/ProcessImgHeader.png"); */
+  max-width: 100%;
+  min-height: 100%;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;} */
+}
+
+.process-img{
+  float: left;
+}
+
+.list--process{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+}
+
+.list__process{
+  list-style-type: none;
+  /* padding-right: 130px; */
 }
