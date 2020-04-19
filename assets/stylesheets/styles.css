@@ -197,6 +197,10 @@ iframe {
 
 .desktop-img{
   max-width: 50%;
+  /* float: none; */
+  /* display: block; */
+  padding-left: 6em;
+  padding-right: 0px;
 }
 
 .level-img{
@@ -227,6 +231,7 @@ iframe {
   /* padding-left: 15px; */
   font-size: 35px;
   color: black;
+  font-weight: normal;
 }
 
 .list__elem{
