@@ -80,24 +80,25 @@ body {
   .topnav__link.hamburger {
     float: right;
     display: block;
+    transform: translateY(-10%);
   }
 
   #name {
     font-size: 14px;
     padding: 0px;
-    transform: translate(-50%, 145%);
+    transform: translate(-50%, 200%);
   }
 
   .topnav__logo {
     width: 30%;
     height: auto;
-    transform: translate(25%, 25%);
+    transform: translate(25%, 45%);
   }
 
   .vertical{
     /* border: 0.5px solid white; */
     height: 25px;
-    transform: translate(2100%, 80%);
+    transform: translate(2100%, 105%);
   }
 
   .topnav.responsive {
