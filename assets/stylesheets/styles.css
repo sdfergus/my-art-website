@@ -71,6 +71,10 @@ body {
     text-align: left;
   }
 
+  .palette {
+    display: none;
+  }
+
 }
 
 div img.animated-gif{
@@ -165,19 +169,19 @@ iframe {
 
 .text__h1 {
   font-size: 6em;
-  line-height: 50px;
+  line-height: 1em;
   padding-top: 7%;
 }
 
 .text__h2 {
   font-size: 32px;
   font-weight: 200;
-  padding-right: 60%;
+  /* padding-right: 60%; */
 }
 
 .text__h3 {
   font-weight: 200;
-  padding-right: 55%;
+  /* padding-right: 55%; */
   line-height: 40px;
   color: grey;
   font-size: 28px;
@@ -187,6 +191,8 @@ iframe {
   max-width: 450px;
   float: right;
   padding-right: 120px;
+  padding-left: 10%;
+  padding-bottom: 3%;
 }
 
 .pie-img {
