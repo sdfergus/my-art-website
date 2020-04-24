@@ -89,6 +89,10 @@ body {
     transform: translate(-50%, 200%);
   }
 
+  #linkedIn, #email {
+    display: none;
+  }
+
   .topnav__logo {
     width: 30%;
     height: auto;
