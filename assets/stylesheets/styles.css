@@ -29,12 +29,12 @@ body {
 .topnav {
   overflow: hidden;
   background-color: black;
-  padding: 0 8%;
+  padding: 0 4%;
   height: 100px;
 }
 
 /* .active {
-  color: #F25D50;
+  color: #F25D50; coral color
 } */
 
 .topnav__link {
@@ -51,8 +51,11 @@ body {
 .topnav__logo {
   width: 50%;
   height: auto;
-  padding:inherit;
-  transform: translate(50%, 20%);
+  transform: translate(10%, 20%);
+}
+
+.topnav__name {
+  transform: translateX(-8%);
 }
 
 .envelope {
@@ -90,7 +93,7 @@ body {
     border-left: 2px solid white;
     height: 45px;
     position:absolute;
-    left: 16.5%;
+    left: 11%;
     transform: translateY(60%);
 }
 
@@ -203,11 +206,11 @@ div img.animated-gif{
 }
 
 div .anim-text {
-  font-stretch: expanded;
   font-weight: 300;
   font-size: 18px;
   text-align: center;
   padding: 0 20px;
+  letter-spacing: 2px;
 }
 
 .line {
@@ -387,6 +390,7 @@ div .anim-text {
 /* ----------------------------- Process Page CSS ----------------------------- */
 .process-img{
   float: left;
+  padding: 0%;
   /* border-radius: 8px; */
   /* box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4); */
   /* transition: all .3s ease-in-out; */
@@ -412,14 +416,17 @@ div .anim-text {
 .img-section{
   padding: 450px 100px;
   padding-bottom: 25px;
+  /* box-shadow: 0px 4px 2px -2px rgba(0,0,0,.75); */
 }
 
 .proj-subtitles {
-  padding-left: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 2%;
-  font-weight: bold;
-  letter-spacing: 3px;
+  /* font-weight: normal; */
+  /* background-color: #D8D8D8;
+  padding: 20px;
+  color: black; */
+  /* letter-spacing: 2px; */
 }
 
 .media-list {
@@ -428,19 +435,21 @@ div .anim-text {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0px 8%;
+  box-shadow: 0px 4px 2px -2px rgba(0,0,0,.75);
+  padding-bottom: 2%;
 }
 
 .media-card-wrapper {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   position: relative;
   margin-bottom: 25px;
   text-align: center;
 }
 
 .media-card{
-  width: 255px;
-  height: 255px;
+  width: 275px;
+  height: 275px;
   display: block;
   position: absolute;
   left: 0;
@@ -459,8 +468,8 @@ div .anim-text {
 }
 
 .media-card:hover {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   z-index: 10;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.4);
 }
