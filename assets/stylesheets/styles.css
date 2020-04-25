@@ -21,7 +21,8 @@ body {
 .topnav {
   overflow: hidden;
   background-color: black;
-  padding: 0 2%;
+  padding: 0 8%;
+  height: 100px;
 }
 
 /* .active {
@@ -33,25 +34,31 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 30px 20px;
+  padding: 40px 25px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   font-weight:normal;
 }
 
 .topnav__logo {
-  width: 40%;
+  width: 50%;
   height: auto;
   padding:inherit;
-  transform: translate(70%, 20%);
+  transform: translate(50%, 20%);
+}
+
+.envelope {
+  transform: scale(1.3,1);
+  font-size:23px;
+  position: relative;
 }
 
 .vertical {
     border-left: 2px solid white;
     height: 45px;
     position:absolute;
-    left: 10%;
-    transform: translateY(35%);
+    left: 16.5%;
+    transform: translateY(60%);
 }
 
 /* ----------------------------- Home Page CSS -----------------------------  */
@@ -103,6 +110,7 @@ body {
     /* border: 0.5px solid white; */
     height: 25px;
     transform: translate(2100%, 105%);
+    /* display: none; */
   }
 
   .topnav.responsive {
@@ -124,6 +132,10 @@ body {
   .palette {
     display: none;
   }
+
+  /* .avatar-image .pie-img .desktop-img .level-img{
+    width: 100%;
+  } */
 
   /* .vertical {
     display: none;
