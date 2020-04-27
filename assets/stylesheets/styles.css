@@ -45,17 +45,18 @@ body {
   padding: 40px 25px;
   text-decoration: none;
   font-size: 18px;
-  font-weight:normal;
+  font-weight: 300;
 }
 
 .topnav__logo {
-  width: 50%;
+  width: 5%;
   height: auto;
   transform: translate(10%, 20%);
 }
 
 .topnav__name {
-  transform: translateX(-8%);
+  transform: translateX(-24%);
+  font-weight: 300;
 }
 
 .envelope {
@@ -90,7 +91,7 @@ body {
 }
 
 .vertical {
-    border-left: 2px solid white;
+    border-left: 1px solid white;
     height: 45px;
     position:absolute;
     left: 11%;
