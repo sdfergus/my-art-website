@@ -10,11 +10,13 @@
 .overview{
   /* padding-right: 225%; */
   font-size: 20px;
-  padding: 35px 350px 35px 45px;
+  /* padding: 35px 350px 0px 45px; */
+  padding: 1% 10% 0% 5.5%;
 }
 
 .container {
   overflow: hidden;
+  padding: 0% 0% 0% 4.5%;
 }
 
 .filter-div {
@@ -24,7 +26,7 @@
   width: 30%;
   line-height: 100px;
   text-align: center;
-  margin: 5px;
+  margin: 25px 15px;
   display: none;
   /* Hidden by default */
 }
@@ -38,12 +40,12 @@
 .btn {
   border: none;
   outline: none;
-  padding: 10px 16px;
+  padding: 10px 20px;
   margin-left:20px;                             /*adds space between buttons */
   border-radius: 5px;                           /*adds roundness */
   background-color: #f1f1f1;
   cursor: pointer;
-  transform: translateY(8px);
+  transform: translate(50px, 7px);
   font-size: 14px;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
@@ -70,11 +72,12 @@
   padding: 20px;
 }
 
-.filter-section {
-  padding-top: 0%;
-  padding-right: 300px;
-  width: 100%;
-}
+/* .filter-section {
+  /* padding-top: 0%; */
+  /* padding-right: 300px; */
+  /* width: 100%; */
+  /* padding: 0%; */
+/* } */
 
 @media screen and (max-width: 600px) {
   .filter-div {
