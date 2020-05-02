@@ -45,10 +45,15 @@
   display: block;
 }
 
+.filter {
+  background-color: #535252;
+  padding: 20px;
+}
+
 .filter-section {
-  padding-top: 50px;
+  padding-top: 0%;
   padding-left: 30px;
-  padding-right: 30px;
+  /* padding-right: 300px; */
   width: 500px
 }
 

@@ -13,11 +13,11 @@
   <script src="./assets/javascripts/jquery.min.js"></script>
   <script src="./assets/javascripts/lightbox.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/sketches-filter.css" />
   <script src="./assets/javascripts/sketches-filter.js"></script>
 </head>
 
 <body>
-
 <div class="topnav" id="myTopNav">
   <a class="link" href="index.html" style="float:left"><img class="topnav__logo" src="assets/images/icons/sf-logo@2x.png"></a>
   <div class="vertical"></div>
@@ -40,41 +40,45 @@
     </div>
   </section>
 
-<!-- <div class="filter">Example DIV.</div> -->
+<div class="filter" id="btn-container">
+  <button class="btn active-b" onclick="filterSelection('all')">show all</button>
+  <!—- Make up your own filter categories, replace dogs, cats, animals, fruits and colors with your own
+  categories -->
+  <button class="btn" onclick="filterSelection('color')">color</button>
+  <button class="btn" onclick="filterSelection('b&w')">b&w</button>
+</div>
 
 <section class="filter-section">
-  <!-- Control buttons -->
-  <div id="btn-container">
-    <button class="btn active-b" onclick="filterSelection('all')"> Show all</button>
-    <!—- Make up your own filter categories, replace dogs, cats, animals, fruits and colors with your own
-    categories -->
-    <button class="btn" onclick="filterSelection('dogs')"> Dogs</button>
-    <button class="btn" onclick="filterSelection('cats')"> Cats</button>
-    <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-    <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-    <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-  </div>
-  <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to
-  multiple categories) -->
   <div class="container">
-    <div class="filter-div dogs animals">
-      <img class="merch-img" src="./assets/images/merch-filter/[TODO: put your image here]" />
+    <div class="filter-div b&w">
+      <img class="merch-img" src="./assets/images/sketches/motherslove-bw.png" />
     </div>
-    <div class="filter-div cats animals">
-      <img class="merch-img" src="./assets/images/merch-filter/[TODO: put your image here]" />
+    <div class="filter-div color">
+      <img class="merch-img" src="./assets/images/sketches/cote-color.png" />
     </div>
-    <div class="filter-div other animals">
-      <img class="merch-img" src="./assets/images/merch-filter/[TODO: put your image here]" />
+    <div class="filter-div b&w">
+      <img class="merch-img" src="./assets/images/sketches/flower-bw.png" />
     </div>
-    <div class="filter-div fruits">
-      <img class="merch-img" src="./assets/images/merch-filter/[TODO: put your image here]" />
+    <div class="filter-div color">
+      <img class="merch-img" src="./assets/images/sketches/cote-2-color.png" />
+    </div>
+    <div class="filter-div color">
+      <img class="merch-img" src="./assets/images/sketches/tropical-color.png" />
+    </div>
+    <div class="filter-div b&w">
+      <img class="merch-img" src="./assets/images/sketches/baby-bw.png" />
+    </div>
+    <div class="filter-div color">
+      <img class="merch-img" src="./assets/images/sketches/fruity-color.jpg" />
+    </div>
+    <div class="filter-div b&w">
+      <img class="merch-img" src="./assets/images/sketches/minion-bw.png" />
+    </div>
+    <div class="filter-div color">
+      <img class="merch-img" src="./assets/images/sketches/popups-BG-color.png" />
     </div>
   </div>
 </section>
-</body>
-<script>filterSelection("all");</script>
-</html>
-
 
 <section>
   <div class="col-xs-12" style="padding: 0%">
@@ -92,5 +96,7 @@
     </footer>
   </div>
 </section>
+
 </body>
+<script>filterSelection("all");</script>
 </html>

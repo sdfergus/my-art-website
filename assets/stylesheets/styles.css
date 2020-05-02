@@ -502,10 +502,3 @@ div .anim-text {
 .media-list > iframe {
   margin-bottom: 50px;
 }
-
-/* ----------------------------- Styles Page CSS ----------------------------- */
-
-.filter {
-  background-color: yellow;
-  padding: 40px;
-}
