@@ -1,0 +1,47 @@
+.body {
+  overflow-x: hidden;
+}
+
+.contents {
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: 300;
+  padding: 2% 3%;
+  transform: translateX(37px);
+}
+
+table{
+  border-collapse:separate;
+  border-spacing: 0 15px;
+}
+
+.overview-popups{
+  font-size: 20px;
+  padding: 30% 20% 0% 5.5%;
+}
+
+.table-contents {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #F25D50
+}
+
+th {
+  background-color: #535252;
+  color: white;
+  /* font-size: 25px; */
+  font-weight: 300;
+}
+
+th, td{
+width: 300px;
+text-align: center;
+padding: 5px;
+}
