@@ -1,3 +1,18 @@
+.body {
+  overflow-x: hidden;
+}
+
+.contents {
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-weight: normal;
+}
+
+.overview{
+  /* padding-right: 225%; */
+  font-size: 20px;
+  padding: 35px 350px 35px 45px;
+}
+
 .container {
   overflow: hidden;
 }
@@ -6,10 +21,10 @@
   float: left;
   background-color: #2196F3;
   color: #ffffff;
-  width: 100px;
+  width: 30%;
   line-height: 100px;
   text-align: center;
-  margin: 2px;
+  margin: 5px;
   display: none;
   /* Hidden by default */
 }
@@ -23,9 +38,14 @@
 .btn {
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 10px 16px;
+  margin-left:20px;                             /*adds space between buttons */
+  border-radius: 5px;                           /*adds roundness */
   background-color: #f1f1f1;
   cursor: pointer;
+  transform: translateY(8px);
+  font-size: 14px;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 }
 
 /* Add a light grey background on mouse-over */
@@ -35,8 +55,8 @@
 
 /* Add a dark background to the active button */
 .btn.active-b {
-  background-color: green;
-  color: white;
+  background-color: black;
+  color: #F25D50;;
 }
 
 .merch-img {
@@ -52,9 +72,8 @@
 
 .filter-section {
   padding-top: 0%;
-  padding-left: 30px;
-  /* padding-right: 300px; */
-  width: 500px
+  padding-right: 300px;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
