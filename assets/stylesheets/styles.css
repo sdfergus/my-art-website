@@ -223,6 +223,7 @@ body {
     position: relative;
     /* background-color: blue; */
     width: 95%;
+    height: 45%;
   }
 
   .animated-gif {
@@ -233,13 +234,24 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    transform: translate(-41%, 25%) !important;
   }
 
   .topnav.responsive .topnav__link {
     float: none;
     display: block;
     text-align: left;
-    color: red;
+    /* color: red; */
+    transform: translateY(160%);
+    padding-bottom: 0%;
+  }
+
+  /* .topnav.responsive a:hover {
+    color: #F25D50;
+  } */
+
+  #popups-label {
+    transform: translate(-45%, 153%)
   }
 
   .palette .process__topics {
