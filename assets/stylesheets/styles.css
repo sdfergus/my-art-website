@@ -348,6 +348,21 @@ body {
   .btn {
     transform: translateX(-6%) !important;
   }
+
+  /* ------------------- Popups ------------------- */
+  .overview-popups {
+    padding: 30% 10% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .contents--popups {
+    display: none;
+  }
+
+  .contents--popups--mobile {
+    display: block !important;
+    /* list-style: none !important; */
+  }
 }
 
 /*******************************************************************************************************/
@@ -750,4 +765,22 @@ th, td {
 width: 280px;
 text-align: center;
 padding: 8px;
+}
+
+.contents--popups--mobile ul {
+  list-style: none;
+  padding: 5%;
+}
+
+.drk-grey-ul {
+  background-color: #535252;
+  color: white;
+  width: 83%;
+  transform: translateX(10%);
+}
+
+.lgt-grey-ul {
+  background-color: #D8D8D8;
+  width: 83%;
+  transform: translateX(10%);
 }
