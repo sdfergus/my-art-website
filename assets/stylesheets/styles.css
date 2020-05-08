@@ -339,6 +339,15 @@ body {
   .list--container.list--process {
     transform: translateX(-5%);
   }
+
+  /* ------------------- Sketches ------------------- */
+  .filter-div {
+    width: 40% !important;
+  }
+
+  .btn {
+    transform: translateX(-6%) !important;
+  }
 }
 
 /*******************************************************************************************************/
@@ -632,6 +641,7 @@ div .anim-text {
   font-size: 20px;
   /* padding: 35px 350px 0px 45px; */
   padding: 1% 10% 0% 5.5%;
+  /* font-weight: 300; */
 }
 
 .container--sketches {
