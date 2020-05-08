@@ -315,6 +315,30 @@ body {
   .img-section {
     padding: 0 !important;
   }
+
+  /* ------------------- Process ------------------- */
+  .process-img {
+    width: 95%;
+    padding-bottom: 0 !important;
+    transform: translateX(-5%);
+  }
+
+  .list__elem.process__topics {
+    display: none !important;
+  }
+
+  .list__process {
+    padding-top: 0 !important;
+    padding-left: 0;
+  }
+
+  .list__title {
+    padding-bottom: 0 !important;
+  }
+
+  .list--container.list--process {
+    transform: translateX(-5%);
+  }
 }
 
 /*******************************************************************************************************/
@@ -421,7 +445,7 @@ div .anim-text {
 }
 
 .container__sec{
-  padding: 50px 0px 20px 0px;
+  padding: 5%;
 }
 
 .list__title {
@@ -498,6 +522,7 @@ div .anim-text {
   flex-direction: row;
   /* justify-content: flex-start; */
   flex-wrap: wrap;
+  padding: 5%;
 }
 
 .list__process{
