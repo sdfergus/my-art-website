@@ -316,7 +316,7 @@ body {
 
   /* ------------------- Projects ------------------- */
   .media-list {
-    padding-top: 15% !important;
+    /* padding-top: 15% !important; */
   }
 
   .img-section {
@@ -345,6 +345,10 @@ body {
 
   .list--container.list--process {
     transform: translateX(-5%);
+  }
+
+  .container__sec__about {
+    transform: translateX(5%);
   }
 
   /* ------------------- Sketches ------------------- */
@@ -505,7 +509,7 @@ div .anim-text {
   padding-top: 60px;
 }
 
-.container__sec{
+.container__sec, .container__sec__about{
   padding-right: 10%;
 }
 
