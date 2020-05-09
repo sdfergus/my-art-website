@@ -432,11 +432,15 @@ div .anim-text {
   font-size: 28px;
 }
 
+#about-img {
+  padding-left: 3%;
+}
+
 .pie-img {
   max-width: 100%;
   width: 100%;
   /* text-align: center; */
-  transform: translateX(-75px);
+  transform: translateX(-45px);
   float: none;
   display: block;
 }
@@ -450,8 +454,7 @@ div .anim-text {
 
 .level-img{
   max-width: 100%;
-  width: 90%;
-  /* width: 1200px; */
+  width: 100%;
 }
 
 .palette img {
@@ -472,7 +475,7 @@ div .anim-text {
 }
 
 .container__sec{
-  padding: 5%;
+  padding-right: 10%;
 }
 
 .list__title {
@@ -497,6 +500,17 @@ div .anim-text {
 
 .list--coder{
   /* padding-left: 35px; */
+}
+
+.about--list--process{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  /* padding: 5%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 [class*="col-"]
@@ -550,6 +564,8 @@ div .anim-text {
   /* justify-content: flex-start; */
   flex-wrap: wrap;
   padding: 5%;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
 }
 
 .list__process{
