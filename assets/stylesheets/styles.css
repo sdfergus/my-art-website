@@ -28,7 +28,6 @@ body {
   overflow: hidden;
   background-color: black;
   padding: 0 4%;
-  height: 100px;
 }
 
 .active-btn {
@@ -464,7 +463,7 @@ div .anim-text {
 }
 
 .container__sec{
-  padding-right: 10%;
+  padding: 5%;
 }
 
 .list__title {
@@ -541,8 +540,7 @@ div .anim-text {
   flex-direction: row;
   /* justify-content: flex-start; */
   flex-wrap: wrap;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5%;
 }
 
 .list__process{
