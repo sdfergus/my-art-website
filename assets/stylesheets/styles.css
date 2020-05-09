@@ -199,18 +199,27 @@ body {
 
   .topnav.responsive {
     position: relative;
+    padding-bottom: 25%;
   }
 
   .topnav.responsive .hamburger{
     position: absolute;
     right: 0;
     top: 0;
+    transform: translate(-41%, 25%) !important;
   }
 
   .topnav.responsive .topnav__link {
     float: none;
     display: block;
     text-align: left;
+    /* padding-top: 0%; */
+    transform: translateY(160%);
+    padding-bottom: 0%;
+  }
+
+  #popups-id {
+    transform: translate(-46%, 153%);
   }
 
   .palette .process__topics {
