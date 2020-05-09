@@ -231,7 +231,8 @@ body {
   }
 
   .anim-text-block--home {
-    padding: 2% !important;
+    padding-top: 10% !important;
+    padding-bottom: 20% !important;
   }
 
   .anim-text-block--projects {
@@ -321,6 +322,20 @@ body {
 
   .img-section {
     padding: 0 !important;
+  }
+
+  .headline-img {
+    padding-bottom: 15%;
+  }
+
+  #sketches-img{
+    padding-bottom: 5%;
+  }
+
+  .media-list > iframe {
+    /* margin-bottom: 50px; */
+    margin: -100px auto 0 auto;
+    top: 80%;
   }
 
   /* ------------------- Process ------------------- */
@@ -698,9 +713,6 @@ div .anim-text {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-}
-.media-list > iframe {
-  margin-bottom: 50px;
 }
 
 /* ----------------------------- Sketches-filter ----------------------------- */
