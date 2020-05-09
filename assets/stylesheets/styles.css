@@ -271,7 +271,9 @@ body {
   }
 
   .pie-img {
-    transform: translateX(-9%) !important;
+    transform: translateX(-1%) !important;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
 
   .desktop-img{
