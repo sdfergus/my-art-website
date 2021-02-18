@@ -1,5 +1,4 @@
-# Shanimations - my personal art website
- UCBE web design project
+# Shanimations - my personal art portfolio site <3 
 
 Note: If for some reason the video is not displaying on page-load, click on my old logo at the top left or
 visit one of the other pages and then revisit the home pages to see if that fixes it.
